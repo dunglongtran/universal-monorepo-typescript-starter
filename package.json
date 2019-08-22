@@ -1,10 +1,14 @@
 {
   "name": "universal-monorepo-typescript-starter",
   "version": "0.1.0",
-  "description": "Boilerplate for monorepo typescript project  ",
+  "description": "Boilerplate for monorepo typescript project",
   "main": "index.js",
   "author": "dunglongtran",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.16.4"
   }
