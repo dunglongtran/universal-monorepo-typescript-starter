@@ -10,7 +10,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "lerna start",
+    "start": "lerna run start",
+    "start:dev": "lerna run start:dev --parallel",
     "bootstrap": "lerna bootstrap --use-workspaces"
   },
   "devDependencies": {
