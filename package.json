@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "lerna": "^3.16.4"
-  }
+  },
+  "keywords": ["monorepo","yarn-workspaces","typescript","lerna","nestjs","reactjs","react-native","expo","electron","typeorm"]
 }
