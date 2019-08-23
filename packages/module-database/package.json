@@ -1,7 +1,7 @@
 {
   "name": "@mono/module-database",
   "version": "0.1.0",
-  "main": "src/index.ts",
+  "main": "index.d.js",
   "license": "MIT",
   "private": true,
   "publishConfig": {

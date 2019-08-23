@@ -4,6 +4,9 @@
     "node_modules",
     "dist"
   ],
+  "compilerOptions": {
+    "types": ["node"]
+  },
   "references": [{
     "path": "../module-database/src"
   }

@@ -9,6 +9,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start": "lerna start",
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
   }
