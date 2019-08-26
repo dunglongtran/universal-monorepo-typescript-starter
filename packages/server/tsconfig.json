@@ -6,7 +6,7 @@
   ],
   "compilerOptions": {
     "types": [
-      "node"
+      "node","jest"
     ]
   },
   "references": [
