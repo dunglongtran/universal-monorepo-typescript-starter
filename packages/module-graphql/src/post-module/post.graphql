@@ -1,0 +1,29 @@
+type Query {
+  getPosts: [Post]
+  post(id: ID!): Post
+}
+
+type Mutation {
+  createPost(createPostInput: CreatePostInput): Post
+  votePost(votePostInput: VotePostInput): Post
+}
+
+type Subscription {
+  postCreated: Post
+  postVoted: Post
+}
+
+type Post {
+  id: Int
+  title: String
+  vote: Int
+}
+
+input CreatePostInput {
+  title: String
+}
+
+input VotePostInput {
+  id:Int
+  vote: Int
+}
