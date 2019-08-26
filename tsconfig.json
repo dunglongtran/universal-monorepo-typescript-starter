@@ -12,7 +12,7 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
-      "@mono/*": ["packages/*/src"]
+      "@mono/*": ["packages/*"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

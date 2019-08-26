@@ -11,7 +11,7 @@ import {  VotePostDto } from './vote.post.dto';
 const pubSub = new PubSub();
 
 @Resolver('Post')
-export class PostResolvers {
+export class PostResolver {
   constructor(private readonly postService: PostService) {}
 
   @Query('getPosts')

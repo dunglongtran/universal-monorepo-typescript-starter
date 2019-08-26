@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { PostResolvers } from './post.resolver';
+import { PostResolver } from './post.resolver';
 import { PostService } from './post.service';
 
 @Module({
-  providers: [PostService, PostResolvers],
+  providers: [PostService, PostResolver],
 })
 export class PostModule {}
