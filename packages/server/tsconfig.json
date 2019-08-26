@@ -12,9 +12,6 @@
   "references": [
     {
       "path": "../module-database/src"
-    },
-    {
-      "path": "../module-graphql/src"
     }
   ]
 }
