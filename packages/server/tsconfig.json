@@ -5,10 +5,16 @@
     "dist"
   ],
   "compilerOptions": {
-    "types": ["node"]
+    "types": [
+      "node","jest"
+    ]
   },
-  "references": [{
-    "path": "../module-database/src"
-  }
+  "references": [
+    {
+      "path": "../module-database/src"
+    },
+    {
+      "path": "../module-graphql/src"
+    }
   ]
 }
