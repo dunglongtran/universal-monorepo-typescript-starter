@@ -1,0 +1,35 @@
+{
+  "name": "@mono/module-graphql",
+  "version": "0.1.0",
+  "main": "src/module-graphql.module.ts",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {},
+  "scripts": {
+    "generate-barrels": "barrelsby --delete  -d src -l top"
+  },
+  "dependencies": {
+    "@mono/interfaces": "0.1.0",
+    "@mono/module-post": "0.1.0",
+    "@mono/module-author": "0.1.0",
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/graphql": "^6.4.2",
+    "apollo-server-express": "^2.8.2",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.10.0",
+    "type-graphql": "^0.17.5",
+    "graphql": "^14.5.0",
+    "graphql-tools": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "barrelsby": "^2.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  }
+}

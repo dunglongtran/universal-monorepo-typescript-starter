@@ -5,19 +5,17 @@
     "dist"
   ],
   "compilerOptions": {
-    "types": [
-      "node","jest"
-    ]
+    "target": "es2016"
   },
   "references": [
     {
-      "path": "../models/src"
+      "path": "../models"
     },
     {
-      "path": "../module-database/src"
+      "path": "../repositories"
     },
     {
-      "path": "../module-graphql/src"
+      "path": "../module-post"
     }
   ]
 }
