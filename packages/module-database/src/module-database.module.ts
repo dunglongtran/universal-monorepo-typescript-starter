@@ -11,7 +11,8 @@ import {PostEntity, AuthorEntity} from '@mono/entities'
     password: "rlxfAoVclLthQn3NvJjUvCTQrdxf1hJP",
     database: "osevjqhz",
     port: 5432,
-    entities: [PostEntity, AuthorEntity]
+    entities: [PostEntity,AuthorEntity],
+    synchronize: true
   })]
 })
 export class ModuleDatabaseModule {

@@ -1,5 +1,9 @@
-import {IAuthor, IPost} from "@mono/interfaces";
+import {IAuthor} from "@mono/interfaces";
+import {Post} from "./Post";
 
-export class Author implements IAuthor {
-  posts: IPost[]
+export abstract class Author implements IAuthor {
+  id: string;
+  name: string;
+  posts: Post[];
+
 }

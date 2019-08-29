@@ -17,7 +17,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "importHelpers": true,
-    "lib": ["es2015"]
+    "lib": ["es2015","es6","es7"]
 
   },
   "exclude": ["node_modules", "dist"]
