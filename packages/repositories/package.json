@@ -1,0 +1,28 @@
+{
+  "name": "@mono/repositories",
+  "version": "0.1.0",
+  "main": "src/module-database.module.ts",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+
+  },
+  "scripts": {
+    "generate-barrels": "barrelsby --delete  -d src -l top"
+  },
+  "dependencies": {
+    "@mono/entities": "0.1.0",
+    "@nestjs/typeorm": "^6.1.3",
+    "typeorm": "^0.2.18"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "barrelsby": "^2.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  }
+}
