@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@mono/interfaces": "0.1.0",
+    "@mono/models": "0.1.0",
     "typeorm": "^0.2.18"
   },
   "devDependencies": {
