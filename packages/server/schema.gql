@@ -46,3 +46,7 @@ type Query {
   getAuthors: [Author!]!
   getPosts: [Post!]!
 }
+
+type Subscription {
+  createdAuthor: Author!
+}

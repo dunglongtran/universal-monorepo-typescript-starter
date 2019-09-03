@@ -5,7 +5,7 @@ import {AuthorModule} from "@mono/module-author";
 
 
 @Module({
-  imports: [AuthorModule,PostModule, GraphQLModule.forRoot({autoSchemaFile: 'schema.gql',})]
+  imports: [AuthorModule,PostModule, GraphQLModule.forRoot({autoSchemaFile: 'schema.gql',installSubscriptionHandlers: true})]
 })
 export class ModuleGraphqlModule {
 }
