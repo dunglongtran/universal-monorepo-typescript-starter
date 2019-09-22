@@ -1,8 +1,8 @@
 module.exports = {
-  ...require('../../jest.config'),
-  coverageDirectory: "../coverage",
-  testEnvironment: "node",
-  roots: [`<rootDir>`,`<rootDir>/../../module-database/`],
-  preset: 'ts-jest'
+    ...require('../../jest.config'),
+    coverageDirectory: "../coverage",
+    testEnvironment: "node",
+    roots: [`<rootDir>`, `<rootDir>/../../module-database/`, `<rootDir>/../../module-post/`, `<rootDir>/../../module-author/`],
+    preset: 'ts-jest'
 
 };

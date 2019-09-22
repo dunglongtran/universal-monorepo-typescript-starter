@@ -24,6 +24,7 @@
     "@mono/interfaces": "0.1.0",
     "@mono/models": "0.1.0",
     "@mono/module-database": "0.1.0",
+    "@mono/module-graphql": "0.1.0",
     "@nestjs/common": "^6.5.3",
     "@nestjs/core": "^6.5.3",
     "@nestjs/platform-express": "^6.5.3",
