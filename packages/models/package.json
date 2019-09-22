@@ -1,10 +1,13 @@
 {
-  "name": "@mono/interfaces",
+  "name": "@mono/models",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "generate-barrels": "barrelsby --delete  -d src -l top"
+  },
+  "dependencies": {
+    "@mono/interfaces": "0.1.0"
   },
   "devDependencies": {
     "barrelsby": "^2.1.1",

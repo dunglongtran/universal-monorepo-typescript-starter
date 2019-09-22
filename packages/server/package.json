@@ -1,0 +1,54 @@
+{
+  "name": "@mono/server",
+  "version": "0.1.0",
+  "description": "",
+  "author": "dunglongtran",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "start:dev": "ts-node-dev -r tsconfig-paths/register src/main.ts --respawn --transpileOnly",
+    "start:dev:build": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/main.js\"",
+    "start:debug": "tsc-watch -p tsconfig.build.json --onSuccess \"node --inspect-brk dist/main.js\"",
+    "start:prod": "node dist/main.js",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "dependencies": {
+    "@mono/entities": "0.1.0",
+    "@mono/interfaces": "0.1.0",
+    "@mono/models": "0.1.0",
+    "@mono/module-database": "0.1.0",
+    "@mono/module-graphql": "0.1.0",
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/platform-express": "^6.5.3",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^6.5.3",
+    "@types/express": "^4.17.1",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.41",
+    "ts-watch": "^1.0.8",
+    "tsc-watch": "2.4.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "5.19.0",
+    "typescript": "^3.5.3"
+  }
+
+}

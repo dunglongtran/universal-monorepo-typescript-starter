@@ -1,0 +1,31 @@
+{
+  "name": "@mono/desktop",
+  "version": "0.1.0",
+  "main": "electron.js",
+  "license": "MIT",
+  "scripts": {
+    "generate-barrels": "barrelsby --delete  -d src -l top",
+    "start:dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:19006 && electron .\""
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "barrelsby": "^2.1.1",
+    "concurrently": "^4.1.2",
+    "electron": "^6.0.3",
+    "electron-builder": "^21.2.0",
+    "electron-is-dev": "^1.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3",
+    "wait-on": "^3.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

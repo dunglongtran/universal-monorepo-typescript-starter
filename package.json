@@ -1,11 +1,23 @@
 {
   "name": "universal-monorepo-typescript-starter",
   "version": "0.1.0",
-  "description": "Boilerplate for monorepo typescript project  ",
+  "description": "Boilerplate for monorepo typescript project",
   "main": "index.js",
   "author": "dunglongtran",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run start --parallel",
+    "start:dev": "lerna run start:dev --parallel",
+    "test": "lerna run test --parallel",
+    "test:e2e": "lerna run test:e2e --parallel",
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
   "devDependencies": {
     "lerna": "^3.16.4"
-  }
+  },
+  "keywords": ["monorepo","universal","yarn-workspaces","typescript","lerna","nestjs","reactjs","react-native","expo","electron","typeorm"]
 }

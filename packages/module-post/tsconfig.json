@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compilerOptions": {
+    "target": "es2016"
+  },
+  "references": [
+    {
+      "path": "../models"
+    },
+    {
+      "path": "../repositories"
+    },
+    {"path": "../module-author"}
+  ]
+}

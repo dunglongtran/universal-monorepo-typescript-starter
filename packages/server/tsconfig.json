@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compilerOptions": {
+    "types": [
+      "node","jest"
+    ]
+  },
+  "references": [
+    {
+      "path": "../models/src"
+    },
+    {
+      "path": "../module-database/src"
+    },
+    {
+      "path": "../module-graphql/src"
+    }
+  ]
+}
