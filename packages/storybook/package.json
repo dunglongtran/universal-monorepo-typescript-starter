@@ -1,20 +1,10 @@
 {
-  "name": "@mono/client",
+  "name": "@mono/storybook",
   "version": "0.1.0",
   "main": "__generated__/AppEntry.js",
   "private": true,
-  "scripts": {
-    "start": "expo start",
-    "start:dev": "expo start -w",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject",
-    "postinstall": "expo-yarn-workspaces postinstall"
-  },
+  "scripts": {},
   "dependencies": {
-    "@mono/components": "0.1.0",
-    "@babel/runtime": "^7.5.5",
     "expo": "^34.0.1",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
@@ -23,6 +13,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@storybook/react-native": "^5.2.1",
+    "@storybook/react-native-server": "^5.2.1",
     "@types/react": "^16.8.23",
     "@types/react-native": "^0.57.65",
     "babel-preset-expo": "^6.0.0",

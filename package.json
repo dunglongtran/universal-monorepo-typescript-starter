@@ -17,7 +17,20 @@
     "bootstrap": "lerna bootstrap --use-workspaces"
   },
   "devDependencies": {
+    "@storybook/react-native": "^5.2.1",
     "lerna": "^3.16.4"
   },
-  "keywords": ["monorepo","universal","yarn-workspaces","typescript","lerna","nestjs","reactjs","react-native","expo","electron","typeorm"]
+  "keywords": [
+    "monorepo",
+    "universal",
+    "yarn-workspaces",
+    "typescript",
+    "lerna",
+    "nestjs",
+    "reactjs",
+    "react-native",
+    "expo",
+    "electron",
+    "typeorm"
+  ]
 }
